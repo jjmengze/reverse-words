@@ -93,7 +93,7 @@ func ReverseWord(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	if len(word.Word) < 1 {
-		log.Println("No word detected, sending default reverse word")
+		log.Println("No word detected, sending default reverse word!!!!!!!!!!!!!!!!!!!!!")
 		reverseWord = "detceted drow oN"
 	} else {
 		log.Println("Detected word", word.Word)
